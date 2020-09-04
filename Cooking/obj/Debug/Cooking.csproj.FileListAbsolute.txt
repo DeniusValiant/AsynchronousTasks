@@ -1,0 +1,7 @@
+C:\Git\AsynchronousTasks\Cooking\bin\Debug\Cooking.exe.config
+C:\Git\AsynchronousTasks\Cooking\bin\Debug\Cooking.exe
+C:\Git\AsynchronousTasks\Cooking\bin\Debug\Cooking.pdb
+C:\Git\AsynchronousTasks\Cooking\obj\Debug\Cooking.csprojAssemblyReference.cache
+C:\Git\AsynchronousTasks\Cooking\obj\Debug\Cooking.csproj.CoreCompileInputs.cache
+C:\Git\AsynchronousTasks\Cooking\obj\Debug\Cooking.exe
+C:\Git\AsynchronousTasks\Cooking\obj\Debug\Cooking.pdb

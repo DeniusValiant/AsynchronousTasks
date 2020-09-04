@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessTasksForURLList", "ProcessTasksForURLList\ProcessTasksForURLList.csproj", "{E0741A71-09FB-4E69-B267-19E8C5452574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking", "Cooking\Cooking.csproj", "{05EFC31C-E832-49C7-849C-EC4CD279FAEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0741A71-09FB-4E69-B267-19E8C5452574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0741A71-09FB-4E69-B267-19E8C5452574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0741A71-09FB-4E69-B267-19E8C5452574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0741A71-09FB-4E69-B267-19E8C5452574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EFC31C-E832-49C7-849C-EC4CD279FAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EFC31C-E832-49C7-849C-EC4CD279FAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EFC31C-E832-49C7-849C-EC4CD279FAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EFC31C-E832-49C7-849C-EC4CD279FAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B88236ED-79A1-48E6-9A97-65E930A53F36}
+	EndGlobalSection
+EndGlobal
