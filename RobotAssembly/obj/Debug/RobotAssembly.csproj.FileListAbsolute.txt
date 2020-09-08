@@ -1,0 +1,7 @@
+C:\Git\AsynchronousTasks\RobotAssembly\bin\Debug\RobotAssembly.exe.config
+C:\Git\AsynchronousTasks\RobotAssembly\bin\Debug\RobotAssembly.exe
+C:\Git\AsynchronousTasks\RobotAssembly\bin\Debug\RobotAssembly.pdb
+C:\Git\AsynchronousTasks\RobotAssembly\obj\Debug\RobotAssembly.csprojAssemblyReference.cache
+C:\Git\AsynchronousTasks\RobotAssembly\obj\Debug\RobotAssembly.csproj.CoreCompileInputs.cache
+C:\Git\AsynchronousTasks\RobotAssembly\obj\Debug\RobotAssembly.exe
+C:\Git\AsynchronousTasks\RobotAssembly\obj\Debug\RobotAssembly.pdb

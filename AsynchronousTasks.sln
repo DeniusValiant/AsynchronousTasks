@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessTasksForURLList", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking", "Cooking\Cooking.csproj", "{05EFC31C-E832-49C7-849C-EC4CD279FAEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotAssembly", "RobotAssembly\RobotAssembly.csproj", "{5CCF11F7-9C47-4495-9079-8B3FF0381289}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{05EFC31C-E832-49C7-849C-EC4CD279FAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05EFC31C-E832-49C7-849C-EC4CD279FAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05EFC31C-E832-49C7-849C-EC4CD279FAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CCF11F7-9C47-4495-9079-8B3FF0381289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCF11F7-9C47-4495-9079-8B3FF0381289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCF11F7-9C47-4495-9079-8B3FF0381289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCF11F7-9C47-4495-9079-8B3FF0381289}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

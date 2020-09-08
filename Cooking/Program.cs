@@ -13,15 +13,17 @@ namespace Cooking
             Coffee cup = PourCoffee();
             Console.WriteLine("coffee is ready");
 
-            Egg eggs = await FryEggsAsync(2);
+            var eggsTask = FryEggsAsync(2);
+            var baconTask = FryBaconAsync(3);
+            var toastTask = MakeToastWithButterAndJamAsync(2);
+
+            var eggs = await eggsTask;
             Console.WriteLine("eggs are ready");
 
-            Bacon bacon = await FryBaconAsync(3);
+            var bacon = await baconTask;
             Console.WriteLine("bacon is ready");
 
-            Toast toast = await ToastBreadAsync(2);
-            ApplyButter(toast);
-            ApplyJam(toast);
+            var toast = await toastTask;
             Console.WriteLine("toast is ready");
 
             Juice oj = PourOJ();
@@ -88,6 +90,14 @@ namespace Cooking
         {
             Console.WriteLine("Pouring coffee");
             return new Coffee();
+        }
+        static async Task<Toast> MakeToastWithButterAndJamAsync(int number)
+        {
+            var toast = await ToastBreadAsync(number);
+            ApplyButter(toast);
+            ApplyJam(toast);
+
+            return toast;
         }
     }
 }
