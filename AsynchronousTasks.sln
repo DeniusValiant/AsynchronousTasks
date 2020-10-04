@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking", "Cooking\Cooking.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotAssembly", "RobotAssembly\RobotAssembly.csproj", "{5CCF11F7-9C47-4495-9079-8B3FF0381289}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitNonAwait", "AwaitNonAwait\AwaitNonAwait.csproj", "{EF88FF4D-67EB-43E2-8242-6512099E138B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5CCF11F7-9C47-4495-9079-8B3FF0381289}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CCF11F7-9C47-4495-9079-8B3FF0381289}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CCF11F7-9C47-4495-9079-8B3FF0381289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF88FF4D-67EB-43E2-8242-6512099E138B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF88FF4D-67EB-43E2-8242-6512099E138B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF88FF4D-67EB-43E2-8242-6512099E138B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF88FF4D-67EB-43E2-8242-6512099E138B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

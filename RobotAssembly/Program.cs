@@ -14,28 +14,43 @@ namespace RobotAssembly
         {
             Stage1();
             Stage2();
+
+            Console.WriteLine("              -------   MainThread Finished  -------          ");
             Console.ReadKey();
         }
 
-        static async void Stage1()
-        {
-            Console.WriteLine("Start STAGE 1");
-            AssembleHeadAsync(1);
-            AssembleBodyAsync(1);
+        //static async Task Stage1()
+        //{
+        //    Console.WriteLine(" ------- Start STAGE 1");
+        //    Task<Head> T1 = AssembleHeadAsync(1);
+        //    Task<Body> T2 = AssembleBodyAsync(1);
 
+        //    var headTask = await T1;
+        //    var bodyTask = await T1;
+
+        //    Console.WriteLine(" ------- Finish STAGE 1");
+        //}
+
+        static async Task Stage1()
+        {
+            Console.WriteLine(" ------- Start STAGE 1");
+            await AssembleHeadAsync(1);
+            await AssembleBodyAsync(1);
+
+            Console.WriteLine(" ------- Finish STAGE 1");
         }
 
-        static async void Stage2()
+        static async Task Stage2()
         {
-            Console.WriteLine("Start STAGE 2");
+            Console.WriteLine(" ------- Start STAGE 2");
             Task<Head> T1 = AssembleHeadAsync(2);
             Task<Body> T2 = AssembleBodyAsync(2);
 
-            var headTask = await T1;
-            var bodyTask = await T1;
+            //var headTask = await T1;
+            //var bodyTask = await T1;
 
-            await Task.WhenAll(T1, T2);
-
+            //Task t = Task.WhenAll(T1, T2);
+            Console.WriteLine(" ------- Finish STAGE 2");
         }
 
         static async Task<Head> AssembleHeadAsync(int stageNumber)

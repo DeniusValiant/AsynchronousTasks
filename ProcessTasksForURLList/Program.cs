@@ -42,7 +42,7 @@ namespace ProcessTasksForURLList
         {
             SumPageSizesAsync();
             BigCalc();
-            Console.WriteLine("Waiting....");
+            Console.WriteLine("--------------------------------------------Finish main thread");
             Console.ReadKey();
         }
 
@@ -98,8 +98,8 @@ namespace ProcessTasksForURLList
             int percent = 0;
             while (percent < 100)
             {
-                await Task.Delay(500);
-                percent += 5;
+                await Task.Delay(100);
+                percent += 10;
                 Console.WriteLine($"Percent of completition : {percent}");
             }
         }
@@ -107,8 +107,11 @@ namespace ProcessTasksForURLList
         static async Task BigCalc()
         {
             //await CalculateNuclearExplosion();
-            //await AssembleRobot()
-                await Task.WhenAll(Task.Run(() => CalculateNuclearExplosion()), Task.Run(() => AssembleRobot()));
+            //await AssembleRobot();
+            //await Task.WhenAll(Task.Run(() => CalculateNuclearExplosion()), Task.Run(() => AssembleRobot()));
+            var t = Task.WhenAll(Task.Run(() => CalculateNuclearExplosion()), Task.Run(() => AssembleRobot()));
+            await t;
+            Console.WriteLine($"FINISH BIG CALC");
         }
     }
 }

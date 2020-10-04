@@ -1,0 +1,7 @@
+C:\Git\AsynchronousTasks\AwaitNonAwait\bin\Debug\AwaitNonAwait.exe.config
+C:\Git\AsynchronousTasks\AwaitNonAwait\bin\Debug\AwaitNonAwait.exe
+C:\Git\AsynchronousTasks\AwaitNonAwait\bin\Debug\AwaitNonAwait.pdb
+C:\Git\AsynchronousTasks\AwaitNonAwait\obj\Debug\AwaitNonAwait.csprojAssemblyReference.cache
+C:\Git\AsynchronousTasks\AwaitNonAwait\obj\Debug\AwaitNonAwait.csproj.CoreCompileInputs.cache
+C:\Git\AsynchronousTasks\AwaitNonAwait\obj\Debug\AwaitNonAwait.exe
+C:\Git\AsynchronousTasks\AwaitNonAwait\obj\Debug\AwaitNonAwait.pdb

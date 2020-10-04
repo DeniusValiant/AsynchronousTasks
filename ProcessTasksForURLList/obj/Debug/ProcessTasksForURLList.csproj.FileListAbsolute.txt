@@ -4,3 +4,4 @@ C:\Git\AsynchronousTasks\ProcessTasksForURLList\bin\Debug\ProcessTasksForURLList
 C:\Git\AsynchronousTasks\ProcessTasksForURLList\obj\Debug\ProcessTasksForURLList.csproj.CoreCompileInputs.cache
 C:\Git\AsynchronousTasks\ProcessTasksForURLList\obj\Debug\ProcessTasksForURLList.exe
 C:\Git\AsynchronousTasks\ProcessTasksForURLList\obj\Debug\ProcessTasksForURLList.pdb
+C:\Git\AsynchronousTasks\ProcessTasksForURLList\obj\Debug\ProcessTasksForURLList.csprojAssemblyReference.cache
